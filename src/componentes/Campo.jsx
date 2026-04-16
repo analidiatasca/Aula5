@@ -1,0 +1,25 @@
+import styled from "styled-components";
+
+const ModeloCampo = styled.div`
+  background-color: white;
+  width: 80%;
+  padding: 32px;
+  margin: 32px auto;
+`
+
+const CampoInterno = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+`
+
+export function Campo({children}) {
+    return (
+        <ModeloCampo>
+            <CampoInterno>
+                {children}
+            </CampoInterno>
+        </ModeloCampo>
+    )
+}
