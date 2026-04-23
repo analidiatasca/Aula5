@@ -5,8 +5,8 @@ const Banner = styled.header`
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
-    width: 89%;
+    height: 200px;
+    width: 80%;
     display: flex;
     align-items: flex-end;
     justify-content: center;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ModeloCampo = styled.div`
   background-color: white;
-  width: 80%;
+  width: 75%;
   padding: 32px;
   margin: 32px auto;
 `
